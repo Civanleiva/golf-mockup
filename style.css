@@ -1,0 +1,268 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif; }
+
+hr {
+  border-bottom: 1.5px solid #fff;
+  opacity: 0.4; }
+
+.container {
+  width: 1134px;
+  margin: 0 auto;
+  text-align: center;
+  max-height: 1000px; }
+
+.hero {
+  background: #fff url(images/Img.png) no-repeat 50% 50%;
+  background-size: cover;
+  height: 680px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hero-text {
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 300;
+  padding: 168px;
+  background: url(images/texture.png) no-repeat 50% 50%; }
+
+.header {
+  height: 88px;
+  background-color: #2f2f2f; }
+
+.page-nav {
+  height: 60px; }
+  .page-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 148px;
+    overflow: hidden;
+    height: 60px;
+    font-weight: bold; }
+    .page-nav ul li {
+      float: left; }
+    .page-nav ul li a {
+      font-size: 12px;
+      display: block;
+      color: #373737;
+      text-align: center;
+      margin: 23px 23px;
+      text-decoration: none; }
+    .page-nav ul li a:hover:not(.active) {
+      background-color: #ddd; }
+    .page-nav ul li a.active {
+      padding-bottom: 15px;
+      color: #373737;
+      border-bottom: 5px solid #00b8f4; }
+
+.top-menu {
+  text-align: right;
+  height: 40px;
+  background-color: #000; }
+  .top-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 148px;
+    overflow: hidden;
+    height: 40px;
+    font-weight: bold; }
+    .top-menu ul li {
+      float: right; }
+    .top-menu ul li a {
+      font-size: 10px;
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 15px 15px 15px 15px;
+      text-decoration: none; }
+
+.logo {
+  margin-left: 168px; }
+
+.title {
+  font-weight: 500;
+  font-size: 40px; }
+
+.intro {
+  padding: 100px 0px 100px 0px; }
+
+.description {
+  font-size: 16px;
+  color: #797979;
+  margin: 0 auto; }
+
+.golf-logo {
+  float: right; }
+
+.fees {
+  height: 900px;
+  background-color: #ededed; }
+  .fees .container .title {
+    text-align: center;
+    font-weight: 300;
+    padding-top: 100px;
+    margin-bottom: 0px; }
+  .fees .container .subtitle {
+    text-align: center;
+    color: #878787;
+    font-weight: 500;
+    margin-top: 0px; }
+
+.card {
+  background: #fff;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 8px;
+  max-width: 358px;
+  position: relative;
+  text-align: center;
+  width: 358px;
+  height: 560px;
+  max-height: 560px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+  .card .card-content .card-title {
+    font-size: 25px;
+    font-weight: 500; }
+  .card .card-content .card-subtitle {
+    color: #00b8f4; }
+  .card .card-content .card-description {
+    font-size: 14px;
+    margin: 0; }
+
+.content {
+  padding: 2px 16px; }
+
+.view-offer-details {
+  padding-bottom: 35px;
+  padding-top: 10px; }
+  .view-offer-details a {
+    text-decoration: none; }
+  .view-offer-details .button-arrow {
+    vertical-align: sub; }
+
+.championship-golf-course {
+  background: #f8f8f8 url(images/golf-man.png) no-repeat 50% 50%;
+  background-size: cover;
+  background-color: #ededed;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center; }
+
+.award {
+  margin-top: 400px; }
+
+.award-card {
+  background: #fff;
+  margin: 8px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 480px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+  .award-card .card-content .title {
+    padding-top: 60px;
+    margin-bottom: 0px; }
+  .award-card .card-content .subtitle {
+    text-align: center;
+    color: #878787;
+    font-weight: 500;
+    margin-top: 0px; }
+  .award-card .card-content .description {
+    margin-bottom: 42px; }
+  .award-card .card-content .card-bottom {
+    font-size: 20px; }
+    .award-card .card-content .card-bottom a {
+      text-decoration: none; }
+      .award-card .card-content .card-bottom a img {
+        vertical-align: bottom;
+        padding-right: 10px; }
+  .award-card .card-content .sponsors {
+    text-align: center;
+    margin-top: 20px;
+    height: 106px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center; }
+    .award-card .card-content .sponsors #gec {
+      margin-right: 45px; }
+    .award-card .card-content .sponsors #kft {
+      margin-left: 45px;
+      margin-top: 20px; }
+
+.inbetween {
+  height: 310px; }
+
+.row {
+  display: flex;
+  flex-wrap: nowrap; }
+
+.column {
+  flex: none;
+  max-width: 60%;
+  text-align: start; }
+
+#big-image {
+  float: right;
+  margin-right: 190px;
+  margin-bottom: 6px; }
+
+#small-image {
+  float: right;
+  margin-right: 190px; }
+
+.course-details .container .title {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0px; }
+.course-details .container .subtitle {
+  font-size: 26px;
+  text-align: center;
+  color: #878787;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 84px; }
+.course-details .container .column {
+  width: 582px; }
+  .course-details .container .column .card {
+    width: 552px;
+    max-width: none;
+    height: auto; }
+    .course-details .container .column .card .card-content {
+      margin: 30px;
+      text-align: left; }
+      .course-details .container .column .card .card-content ul {
+        list-style: none;
+        font-weight: 600; }
+      .course-details .container .column .card .card-content ul li::before {
+        content: "•";
+        color: #00b8f4;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em; }
+      .course-details .container .column .card .card-content li + li {
+        margin-top: 10px; }
+      .course-details .container .column .card .card-content img {
+        width: -webkit-fill-available; }
+      .course-details .container .column .card .card-content .card-subtitle {
+        margin-top: 0px; }
+
+.promotion {
+  color: #797979; }
+
+/*# sourceMappingURL=style.css.map */

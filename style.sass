@@ -1,0 +1,291 @@
+$light-blue: #00b8f4
+
+    
+html
+    box-sizing: border-box
+
+*,
+*:before,
+*:after
+    box-sizing: inherit
+
+body
+    margin: 0
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif
+
+hr
+    border-bottom: 1.5px solid #fff
+    opacity: .4
+
+.container
+    width: 1134px
+    margin: 0 auto
+    text-align: center
+    max-height: 1000px
+
+.hero
+    background: #fff url(images/Img.png) no-repeat 50% 50%
+    background-size: cover
+    height: 680px
+    opacity: .9
+    display: flex
+    justify-content: center
+    align-items: center
+
+.hero-text
+    text-align: center
+    color: #fff
+    font-size: 70px
+    font-weight: 300
+    padding: 168px
+    background: url(images/texture.png) no-repeat 50% 50%
+
+.header
+    height: 88px
+    background-color: #2f2f2f
+
+.page-nav
+    height: 60px
+    ul
+        list-style-type: none
+        margin: 0
+        padding: 0 148px
+        overflow: hidden
+        height: 60px
+        font-weight: bold
+
+        li
+            float: left
+
+        li a
+            font-size: 12px
+            display: block
+            color: #373737
+            text-align: center
+            margin: 23px 23px
+            text-decoration: none
+
+        li a:hover:not(.active)
+            background-color: #ddd
+
+        li a.active
+            padding-bottom: 15px
+            color: #373737
+            border-bottom: 5px solid $light-blue
+
+.top-menu
+    text-align: right
+    height: 40px
+    background-color: #000
+    ul
+        list-style-type: none
+        margin: 0
+        padding: 0 148px
+        overflow: hidden
+        height: 40px
+        font-weight: bold
+
+        li
+            float: right
+
+        li a
+            font-size: 10px
+            display: block
+            color: #666
+            text-align: center
+            padding: 15px 15px 15px 15px
+            text-decoration: none
+
+.logo
+    margin-left: 168px
+
+.title
+    font-weight: 500
+    font-size: 40px
+
+.intro
+    padding: 100px 0px 100px 0px
+
+.description
+    font-size: 16px
+    color: #797979
+    margin: 0 auto
+
+.golf-logo
+    float: right
+
+.fees
+    height: 900px
+    background-color: #ededed
+
+    .container
+        .title
+            text-align: center
+            font-weight: 300
+            padding-top: 100px
+            margin-bottom: 0px
+
+        .subtitle
+            text-align: center
+            color: #878787
+            font-weight: 500
+            margin-top: 0px
+
+.card
+    background: #fff
+    display: inline-flex
+    flex-direction: column
+    margin: 8px
+    max-width: 358px
+    position: relative
+    text-align: center
+    width: 358px
+    height: 560px
+    max-height: 560px
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+
+
+    .card-content
+        .card-title
+            font-size: 25px
+            font-weight: 500
+
+        .card-subtitle
+            color: $light-blue
+
+        .card-description
+            font-size: 14px
+            margin: 0
+
+.content
+    padding: 2px 16px
+
+.view-offer-details
+    padding-bottom: 35px
+    padding-top: 10px
+    a
+        text-decoration: none
+    
+    .button-arrow
+        vertical-align: sub
+        
+
+.championship-golf-course
+    background: #f8f8f8 url(images/golf-man.png) no-repeat 50% 50%
+    background-size: cover
+    background-color: #ededed
+    opacity: .9
+    display: flex
+    justify-content: center
+
+.award
+    margin-top: 400px
+
+.award-card
+    background: #fff
+    margin: 8px
+    position: relative
+    text-align: center
+    width: 100%
+    height: 480px
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+
+    .card-content
+        .title
+            padding-top: 60px
+            margin-bottom: 0px
+        .subtitle
+            text-align: center
+            color: #878787
+            font-weight: 500
+            margin-top: 0px
+        .description
+            margin-bottom: 42px
+        .card-bottom
+            font-size: 20px
+            a
+                text-decoration: none
+                img
+                    vertical-align: bottom
+                    padding-right: 10px 
+                    
+        .sponsors
+            text-align: center
+            margin-top: 20px
+            height: 106px
+            background-color: #f8f8f8 
+            display: flex   
+            align-items: center
+            justify-content: center
+            align-content: center
+            #gec
+                margin-right: 45px
+            #kft
+                margin-left: 45px
+                margin-top: 20px
+
+.inbetween
+    height: 310px
+
+.row
+    display: flex
+    flex-wrap: nowrap
+
+.column
+    flex: none
+    max-width: 60%
+    text-align: start
+
+#big-image
+    float: right
+    margin-right: 190px
+    margin-bottom: 6px
+
+#small-image
+    float: right
+    margin-right: 190px 
+
+.course-details
+    .container
+        .title
+            font-size: 50px
+            text-align: center
+            font-weight: 300
+            margin-top: 0px
+        .subtitle
+            font-size: 26px
+            text-align: center
+            color: #878787
+            font-weight: 500
+            margin-bottom: 0px
+            margin-top: 84px
+        .column
+            width: 582px
+            .card
+                width: 552px
+                max-width: none
+                height: auto
+
+                .card-content
+                    margin: 30px
+                    text-align: left
+                    ul
+                        list-style: none
+                        font-weight: 600
+                    ul li::before
+                        content: "\2022"
+                        color: $light-blue
+                        font-weight: bold
+                        display: inline-block
+                        width: 1em
+                        margin-left: -1em
+                    li + li
+                        margin-top: 10px
+
+                    img
+                        width: -webkit-fill-available
+                    
+                    .card-subtitle
+                        margin-top: 0px
+.promotion
+    color: #797979
