@@ -37,10 +37,17 @@ hr {
   font-weight: 300;
   padding: 168px;
   background: url(images/texture.png) no-repeat 50% 50%; }
+  .hero-text .hero-subtitle {
+    font-size: 26px; }
 
 .header {
   height: 88px;
   background-color: #2f2f2f; }
+  .header .logo-row {
+    margin-left: 168px; }
+    .header .logo-row .row-right {
+      float: right;
+      padding-right: 50px; }
 
 .page-nav {
   height: 60px; }
@@ -88,9 +95,6 @@ hr {
       padding: 15px 15px 15px 15px;
       text-decoration: none; }
 
-.logo {
-  margin-left: 168px; }
-
 .title {
   font-weight: 500;
   font-size: 40px; }
@@ -137,6 +141,10 @@ hr {
     font-weight: 500; }
   .card .card-content .card-subtitle {
     color: #00b8f4; }
+    .card .card-content .card-subtitle .course-ratings {
+      margin-right: 170px; }
+    .card .card-content .card-subtitle #usga-logo {
+      width: 120px; }
   .card .card-content .card-description {
     font-size: 14px;
     margin: 0; }
@@ -181,6 +189,8 @@ hr {
     margin-top: 0px; }
   .award-card .card-content .description {
     margin-bottom: 42px; }
+    .award-card .card-content .description b {
+      color: #000; }
   .award-card .card-content .card-bottom {
     font-size: 20px; }
     .award-card .card-content .card-bottom a {

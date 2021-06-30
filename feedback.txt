@@ -1,0 +1,29 @@
+CASE 1
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-Added meta charset UTF-8 (when making a new proyect, our existing proyects already have this)
+-Linking stylesheets after meta tags
+-Two spaces identation (fix it if we have the time)
+-Only write tags if we are going to style them
+-Using direct selectors instead of classes can be problematic, don't do it in actual proyects
+-Use dashes (kebab-case) as a naming convention for CSS classes
+-Use descriptive names for classes
+-Came-case is only used in React (and JS in general)
+-Use classes over IDs whenever applicable
+-Avoid using numbers to describe classes
+-Try to reduce the amount of lines as much as possible
+-Avoid using line breaks whenever possible
+-Use alt attributes to help with SEO and accessibility
+-Don't use inline-styles
+-Don't use position: absolute, use position: relative
+-Use short (3-4 words) but very descriptive alt attributes
+-Prefer borders over separators as they're easier to maintain
+-Normalize the root in CSS
+-Avoid using !important
+-Define colors using hex
+-Reduce 6 letter repeating hexs to just 3
+-Avoid using floating points in pixel units
+-Use variables for colors
+-Use individual rules for fonts instead of short-hand
+-Use shorthands for margin and padding
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
