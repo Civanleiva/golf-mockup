@@ -7,7 +7,7 @@ CASE 1
 -Using direct selectors instead of classes can be problematic, don't do it in actual proyects
 -Use dashes (kebab-case) as a naming convention for CSS classes
 -Use descriptive names for classes
--Came-case is only used in React (and JS in general)
+-Camel-case is only used in React (and JS in general)
 -Use classes over IDs whenever applicable
 -Avoid using numbers to describe classes
 -Try to reduce the amount of lines as much as possible
