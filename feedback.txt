@@ -20,7 +20,7 @@ CASE 1
 -Normalize the root in CSS
 -Avoid using !important
 -Define colors using hex
--Reduce 6 letter repeating hexs to just 3
+-Reduce 6 letter repeating hexes to just 3
 -Avoid using floating points in pixel units
 -Use variables for colors
 -Use individual rules for fonts instead of short-hand
